@@ -9,6 +9,20 @@ Block Diagram:
 Problem: 
 Redmine is a web-based project management and issue tracking tool. It allows users to manage multiple projects and associated subprojects. It features per project wikis and forums, time tracking, and flexible, role-based access control. Combine this with an auto install of docker since the problems we have are due to dependencies.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Ansible-Boilerplate
 
 [![GitHub Issues](https://img.shields.io/github/issues/acch/ansible-boilerplate.svg)](https://github.com/acch/ansible-boilerplate/issues) [![GitHub Stars](https://img.shields.io/github/stars/acch/ansible-boilerplate.svg?label=github%20%E2%98%85)](https://github.com/acch/ansible-boilerplate/) [![License](https://img.shields.io/github/license/acch/ansible-boilerplate.svg)](LICENSE)
