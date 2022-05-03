@@ -8,6 +8,29 @@
     data: alive
   tags: check
 
+- name: Install docker
+  snap:
+    name: docker
+
+- name: install docker mod for python
+  pip:
+    name: docker
+
+- name: login to docker
+  docker_login:
+    username: jtav123
+    password: EzioAltair3418@!@#
+    email: jose.taveras@westpoint.edu
+   
+- name: Create a data container
+  docker_container:
+    name: redmine
+    image: redmine
+    state: started
+    recreate: yes
+    published_ports:
+      - 8080:3000
+
 # Add further tasks for the common role (applied to all servers) to this playbook...
 
 ...
